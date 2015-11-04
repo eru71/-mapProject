@@ -1,0 +1,658 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8514D85B1BE9B379007FECD7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8514D85A1BE9B379007FECD7 /* main.m */; };
+		8514D85E1BE9B379007FECD7 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8514D85D1BE9B379007FECD7 /* AppDelegate.mm */; };
+		8514D8611BE9B379007FECD7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8514D8601BE9B379007FECD7 /* ViewController.m */; };
+		8514D8641BE9B379007FECD7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8514D8621BE9B379007FECD7 /* Main.storyboard */; };
+		8514D8671BE9B379007FECD7 /* __map.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8514D8651BE9B379007FECD7 /* __map.xcdatamodeld */; };
+		8514D8691BE9B379007FECD7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8514D8681BE9B379007FECD7 /* Assets.xcassets */; };
+		8514D86C1BE9B379007FECD7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8514D86A1BE9B379007FECD7 /* LaunchScreen.storyboard */; };
+		8514D8771BE9B379007FECD7 /* __mapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8514D8761BE9B379007FECD7 /* __mapTests.m */; };
+		8514D8821BE9B379007FECD7 /* __mapUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8514D8811BE9B379007FECD7 /* __mapUITests.m */; };
+		8514D8901BE9B872007FECD7 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8514D88F1BE9B872007FECD7 /* AudioToolbox.framework */; };
+		8514D8AC1BEA4438007FECD7 /* BaiduMapAPI_Base.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8514D8A51BEA4438007FECD7 /* BaiduMapAPI_Base.framework */; };
+		8514D8AD1BEA4438007FECD7 /* BaiduMapAPI_Cloud.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8514D8A61BEA4438007FECD7 /* BaiduMapAPI_Cloud.framework */; };
+		8514D8AE1BEA4438007FECD7 /* BaiduMapAPI_Location.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8514D8A71BEA4438007FECD7 /* BaiduMapAPI_Location.framework */; };
+		8514D8AF1BEA4438007FECD7 /* BaiduMapAPI_Map.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8514D8A81BEA4438007FECD7 /* BaiduMapAPI_Map.framework */; };
+		8514D8B01BEA4438007FECD7 /* BaiduMapAPI_Radar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8514D8A91BEA4438007FECD7 /* BaiduMapAPI_Radar.framework */; };
+		8514D8B11BEA4438007FECD7 /* BaiduMapAPI_Search.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8514D8AA1BEA4438007FECD7 /* BaiduMapAPI_Search.framework */; };
+		8514D8B21BEA4438007FECD7 /* BaiduMapAPI_Utils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8514D8AB1BEA4438007FECD7 /* BaiduMapAPI_Utils.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8514D8731BE9B379007FECD7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8514D84E1BE9B379007FECD7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8514D8551BE9B379007FECD7;
+			remoteInfo = "美食map";
+		};
+		8514D87E1BE9B379007FECD7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8514D84E1BE9B379007FECD7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8514D8551BE9B379007FECD7;
+			remoteInfo = "美食map";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8514D8561BE9B379007FECD7 /* 美食map.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "美食map.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8514D85A1BE9B379007FECD7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8514D85C1BE9B379007FECD7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8514D85D1BE9B379007FECD7 /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
+		8514D85F1BE9B379007FECD7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8514D8601BE9B379007FECD7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8514D8631BE9B379007FECD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8514D8661BE9B379007FECD7 /* __map.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = __map.xcdatamodel; sourceTree = "<group>"; };
+		8514D8681BE9B379007FECD7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8514D86B1BE9B379007FECD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8514D86D1BE9B379007FECD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8514D8721BE9B379007FECD7 /* 美食mapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "美食mapTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8514D8761BE9B379007FECD7 /* __mapTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __mapTests.m; sourceTree = "<group>"; };
+		8514D8781BE9B379007FECD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8514D87D1BE9B379007FECD7 /* 美食mapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "美食mapUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8514D8811BE9B379007FECD7 /* __mapUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __mapUITests.m; sourceTree = "<group>"; };
+		8514D8831BE9B379007FECD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8514D88F1BE9B872007FECD7 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		8514D8A51BEA4438007FECD7 /* BaiduMapAPI_Base.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BaiduMapAPI_Base.framework; sourceTree = "<group>"; };
+		8514D8A61BEA4438007FECD7 /* BaiduMapAPI_Cloud.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BaiduMapAPI_Cloud.framework; sourceTree = "<group>"; };
+		8514D8A71BEA4438007FECD7 /* BaiduMapAPI_Location.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BaiduMapAPI_Location.framework; sourceTree = "<group>"; };
+		8514D8A81BEA4438007FECD7 /* BaiduMapAPI_Map.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BaiduMapAPI_Map.framework; sourceTree = "<group>"; };
+		8514D8A91BEA4438007FECD7 /* BaiduMapAPI_Radar.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BaiduMapAPI_Radar.framework; sourceTree = "<group>"; };
+		8514D8AA1BEA4438007FECD7 /* BaiduMapAPI_Search.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BaiduMapAPI_Search.framework; sourceTree = "<group>"; };
+		8514D8AB1BEA4438007FECD7 /* BaiduMapAPI_Utils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BaiduMapAPI_Utils.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8514D8531BE9B379007FECD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8514D8901BE9B872007FECD7 /* AudioToolbox.framework in Frameworks */,
+				8514D8B01BEA4438007FECD7 /* BaiduMapAPI_Radar.framework in Frameworks */,
+				8514D8AC1BEA4438007FECD7 /* BaiduMapAPI_Base.framework in Frameworks */,
+				8514D8AD1BEA4438007FECD7 /* BaiduMapAPI_Cloud.framework in Frameworks */,
+				8514D8B21BEA4438007FECD7 /* BaiduMapAPI_Utils.framework in Frameworks */,
+				8514D8AF1BEA4438007FECD7 /* BaiduMapAPI_Map.framework in Frameworks */,
+				8514D8AE1BEA4438007FECD7 /* BaiduMapAPI_Location.framework in Frameworks */,
+				8514D8B11BEA4438007FECD7 /* BaiduMapAPI_Search.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8514D86F1BE9B379007FECD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8514D87A1BE9B379007FECD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8514D84D1BE9B379007FECD7 = {
+			isa = PBXGroup;
+			children = (
+				8514D88F1BE9B872007FECD7 /* AudioToolbox.framework */,
+				8514D8581BE9B379007FECD7 /* 美食map */,
+				8514D8751BE9B379007FECD7 /* 美食mapTests */,
+				8514D8801BE9B379007FECD7 /* 美食mapUITests */,
+				8514D8571BE9B379007FECD7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8514D8571BE9B379007FECD7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8514D8561BE9B379007FECD7 /* 美食map.app */,
+				8514D8721BE9B379007FECD7 /* 美食mapTests.xctest */,
+				8514D87D1BE9B379007FECD7 /* 美食mapUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8514D8581BE9B379007FECD7 /* 美食map */ = {
+			isa = PBXGroup;
+			children = (
+				8514D8A41BEA43E6007FECD7 /* View */,
+				8514D8A31BEA43DE007FECD7 /* ViewController */,
+				8514D8A21BEA43D4007FECD7 /* ViewModel */,
+				8514D8A11BEA43C7007FECD7 /* Util */,
+				8514D8A01BEA43BF007FECD7 /* Model */,
+				8514D89F1BEA43B9007FECD7 /* Vendor */,
+				8514D89E1BEA43B0007FECD7 /* NetManager */,
+				8514D89D1BEA43A8007FECD7 /* Define */,
+				8514D89C1BEA42A1007FECD7 /* Resource */,
+				8514D8591BE9B379007FECD7 /* Supporting Files */,
+			);
+			path = "美食map";
+			sourceTree = "<group>";
+		};
+		8514D8591BE9B379007FECD7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8514D85A1BE9B379007FECD7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8514D8751BE9B379007FECD7 /* 美食mapTests */ = {
+			isa = PBXGroup;
+			children = (
+				8514D8761BE9B379007FECD7 /* __mapTests.m */,
+				8514D8781BE9B379007FECD7 /* Info.plist */,
+			);
+			path = "美食mapTests";
+			sourceTree = "<group>";
+		};
+		8514D8801BE9B379007FECD7 /* 美食mapUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8514D8811BE9B379007FECD7 /* __mapUITests.m */,
+				8514D8831BE9B379007FECD7 /* Info.plist */,
+			);
+			path = "美食mapUITests";
+			sourceTree = "<group>";
+		};
+		8514D89C1BEA42A1007FECD7 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				8514D8651BE9B379007FECD7 /* __map.xcdatamodeld */,
+				8514D8621BE9B379007FECD7 /* Main.storyboard */,
+				8514D8681BE9B379007FECD7 /* Assets.xcassets */,
+				8514D86A1BE9B379007FECD7 /* LaunchScreen.storyboard */,
+				8514D86D1BE9B379007FECD7 /* Info.plist */,
+				8514D85C1BE9B379007FECD7 /* AppDelegate.h */,
+				8514D85D1BE9B379007FECD7 /* AppDelegate.mm */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		8514D89D1BEA43A8007FECD7 /* Define */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Define;
+			sourceTree = "<group>";
+		};
+		8514D89E1BEA43B0007FECD7 /* NetManager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = NetManager;
+			sourceTree = "<group>";
+		};
+		8514D89F1BEA43B9007FECD7 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				8514D8A51BEA4438007FECD7 /* BaiduMapAPI_Base.framework */,
+				8514D8A61BEA4438007FECD7 /* BaiduMapAPI_Cloud.framework */,
+				8514D8A71BEA4438007FECD7 /* BaiduMapAPI_Location.framework */,
+				8514D8A81BEA4438007FECD7 /* BaiduMapAPI_Map.framework */,
+				8514D8A91BEA4438007FECD7 /* BaiduMapAPI_Radar.framework */,
+				8514D8AA1BEA4438007FECD7 /* BaiduMapAPI_Search.framework */,
+				8514D8AB1BEA4438007FECD7 /* BaiduMapAPI_Utils.framework */,
+			);
+			name = Vendor;
+			sourceTree = "<group>";
+		};
+		8514D8A01BEA43BF007FECD7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		8514D8A11BEA43C7007FECD7 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		8514D8A21BEA43D4007FECD7 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
+		8514D8A31BEA43DE007FECD7 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8514D85F1BE9B379007FECD7 /* ViewController.h */,
+				8514D8601BE9B379007FECD7 /* ViewController.m */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		8514D8A41BEA43E6007FECD7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8514D8551BE9B379007FECD7 /* 美食map */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8514D8861BE9B379007FECD7 /* Build configuration list for PBXNativeTarget "美食map" */;
+			buildPhases = (
+				8514D8521BE9B379007FECD7 /* Sources */,
+				8514D8531BE9B379007FECD7 /* Frameworks */,
+				8514D8541BE9B379007FECD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "美食map";
+			productName = "美食map";
+			productReference = 8514D8561BE9B379007FECD7 /* 美食map.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8514D8711BE9B379007FECD7 /* 美食mapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8514D8891BE9B379007FECD7 /* Build configuration list for PBXNativeTarget "美食mapTests" */;
+			buildPhases = (
+				8514D86E1BE9B379007FECD7 /* Sources */,
+				8514D86F1BE9B379007FECD7 /* Frameworks */,
+				8514D8701BE9B379007FECD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8514D8741BE9B379007FECD7 /* PBXTargetDependency */,
+			);
+			name = "美食mapTests";
+			productName = "美食mapTests";
+			productReference = 8514D8721BE9B379007FECD7 /* 美食mapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8514D87C1BE9B379007FECD7 /* 美食mapUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8514D88C1BE9B379007FECD7 /* Build configuration list for PBXNativeTarget "美食mapUITests" */;
+			buildPhases = (
+				8514D8791BE9B379007FECD7 /* Sources */,
+				8514D87A1BE9B379007FECD7 /* Frameworks */,
+				8514D87B1BE9B379007FECD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8514D87F1BE9B379007FECD7 /* PBXTargetDependency */,
+			);
+			name = "美食mapUITests";
+			productName = "美食mapUITests";
+			productReference = 8514D87D1BE9B379007FECD7 /* 美食mapUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8514D84E1BE9B379007FECD7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = qinxi;
+				TargetAttributes = {
+					8514D8551BE9B379007FECD7 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = GML3P7X5GD;
+					};
+					8514D8711BE9B379007FECD7 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = GML3P7X5GD;
+						TestTargetID = 8514D8551BE9B379007FECD7;
+					};
+					8514D87C1BE9B379007FECD7 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = GML3P7X5GD;
+						TestTargetID = 8514D8551BE9B379007FECD7;
+					};
+				};
+			};
+			buildConfigurationList = 8514D8511BE9B379007FECD7 /* Build configuration list for PBXProject "美食map" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8514D84D1BE9B379007FECD7;
+			productRefGroup = 8514D8571BE9B379007FECD7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8514D8551BE9B379007FECD7 /* 美食map */,
+				8514D8711BE9B379007FECD7 /* 美食mapTests */,
+				8514D87C1BE9B379007FECD7 /* 美食mapUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8514D8541BE9B379007FECD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8514D86C1BE9B379007FECD7 /* LaunchScreen.storyboard in Resources */,
+				8514D8691BE9B379007FECD7 /* Assets.xcassets in Resources */,
+				8514D8641BE9B379007FECD7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8514D8701BE9B379007FECD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8514D87B1BE9B379007FECD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8514D8521BE9B379007FECD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8514D8611BE9B379007FECD7 /* ViewController.m in Sources */,
+				8514D85E1BE9B379007FECD7 /* AppDelegate.mm in Sources */,
+				8514D8671BE9B379007FECD7 /* __map.xcdatamodeld in Sources */,
+				8514D85B1BE9B379007FECD7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8514D86E1BE9B379007FECD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8514D8771BE9B379007FECD7 /* __mapTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8514D8791BE9B379007FECD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8514D8821BE9B379007FECD7 /* __mapUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8514D8741BE9B379007FECD7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8514D8551BE9B379007FECD7 /* 美食map */;
+			targetProxy = 8514D8731BE9B379007FECD7 /* PBXContainerItemProxy */;
+		};
+		8514D87F1BE9B379007FECD7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8514D8551BE9B379007FECD7 /* 美食map */;
+			targetProxy = 8514D87E1BE9B379007FECD7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8514D8621BE9B379007FECD7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8514D8631BE9B379007FECD7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8514D86A1BE9B379007FECD7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8514D86B1BE9B379007FECD7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8514D8841BE9B379007FECD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8514D8851BE9B379007FECD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8514D8871BE9B379007FECD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/美食map",
+				);
+				INFOPLIST_FILE = "美食map/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "UMR.--map";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8514D8881BE9B379007FECD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/美食map",
+				);
+				INFOPLIST_FILE = "美食map/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "UMR.--map";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8514D88A1BE9B379007FECD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "美食mapTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "UMR.--mapTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/美食map.app/美食map";
+			};
+			name = Debug;
+		};
+		8514D88B1BE9B379007FECD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "美食mapTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "UMR.--mapTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/美食map.app/美食map";
+			};
+			name = Release;
+		};
+		8514D88D1BE9B379007FECD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "美食mapUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "UMR.--mapUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "美食map";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		8514D88E1BE9B379007FECD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "美食mapUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "UMR.--mapUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "美食map";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8514D8511BE9B379007FECD7 /* Build configuration list for PBXProject "美食map" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8514D8841BE9B379007FECD7 /* Debug */,
+				8514D8851BE9B379007FECD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8514D8861BE9B379007FECD7 /* Build configuration list for PBXNativeTarget "美食map" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8514D8871BE9B379007FECD7 /* Debug */,
+				8514D8881BE9B379007FECD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8514D8891BE9B379007FECD7 /* Build configuration list for PBXNativeTarget "美食mapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8514D88A1BE9B379007FECD7 /* Debug */,
+				8514D88B1BE9B379007FECD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8514D88C1BE9B379007FECD7 /* Build configuration list for PBXNativeTarget "美食mapUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8514D88D1BE9B379007FECD7 /* Debug */,
+				8514D88E1BE9B379007FECD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8514D8651BE9B379007FECD7 /* __map.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8514D8661BE9B379007FECD7 /* __map.xcdatamodel */,
+			);
+			currentVersion = 8514D8661BE9B379007FECD7 /* __map.xcdatamodel */;
+			path = __map.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8514D84E1BE9B379007FECD7 /* Project object */;
+}
