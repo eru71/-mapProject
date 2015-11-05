@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		470165B86A261D677B34329D /* libPods-美食map.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A9B12DC473C5D4F35DE2C0A6 /* libPods-美食map.a */; };
 		8514D85B1BE9B379007FECD7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8514D85A1BE9B379007FECD7 /* main.m */; };
 		8514D85E1BE9B379007FECD7 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8514D85D1BE9B379007FECD7 /* AppDelegate.mm */; };
 		8514D8611BE9B379007FECD7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8514D8601BE9B379007FECD7 /* ViewController.m */; };
@@ -44,6 +45,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A307EE2308A17AD93274CCE /* Pods-美食map.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-美食map.release.xcconfig"; path = "Pods/Target Support Files/Pods-美食map/Pods-美食map.release.xcconfig"; sourceTree = "<group>"; };
+		813BA335448D8F13CDFE0006 /* Pods-美食map.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-美食map.debug.xcconfig"; path = "Pods/Target Support Files/Pods-美食map/Pods-美食map.debug.xcconfig"; sourceTree = "<group>"; };
 		8514D8561BE9B379007FECD7 /* 美食map.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "美食map.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8514D85A1BE9B379007FECD7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8514D85C1BE9B379007FECD7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -69,6 +72,7 @@
 		8514D8A91BEA4438007FECD7 /* BaiduMapAPI_Radar.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BaiduMapAPI_Radar.framework; sourceTree = "<group>"; };
 		8514D8AA1BEA4438007FECD7 /* BaiduMapAPI_Search.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BaiduMapAPI_Search.framework; sourceTree = "<group>"; };
 		8514D8AB1BEA4438007FECD7 /* BaiduMapAPI_Utils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BaiduMapAPI_Utils.framework; sourceTree = "<group>"; };
+		A9B12DC473C5D4F35DE2C0A6 /* libPods-美食map.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-美食map.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +88,7 @@
 				8514D8AF1BEA4438007FECD7 /* BaiduMapAPI_Map.framework in Frameworks */,
 				8514D8AE1BEA4438007FECD7 /* BaiduMapAPI_Location.framework in Frameworks */,
 				8514D8B11BEA4438007FECD7 /* BaiduMapAPI_Search.framework in Frameworks */,
+				470165B86A261D677B34329D /* libPods-美食map.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,6 +117,8 @@
 				8514D8751BE9B379007FECD7 /* 美食mapTests */,
 				8514D8801BE9B379007FECD7 /* 美食mapUITests */,
 				8514D8571BE9B379007FECD7 /* Products */,
+				E87FA8B8F66938CEE09C7E71 /* Pods */,
+				DB19C0CE99AAA22AC85B8471 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -247,6 +254,23 @@
 			name = View;
 			sourceTree = "<group>";
 		};
+		DB19C0CE99AAA22AC85B8471 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A9B12DC473C5D4F35DE2C0A6 /* libPods-美食map.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E87FA8B8F66938CEE09C7E71 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				813BA335448D8F13CDFE0006 /* Pods-美食map.debug.xcconfig */,
+				0A307EE2308A17AD93274CCE /* Pods-美食map.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -254,9 +278,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8514D8861BE9B379007FECD7 /* Build configuration list for PBXNativeTarget "美食map" */;
 			buildPhases = (
+				2E1CFC44B88F5799ABD82CAF /* Check Pods Manifest.lock */,
 				8514D8521BE9B379007FECD7 /* Sources */,
 				8514D8531BE9B379007FECD7 /* Frameworks */,
 				8514D8541BE9B379007FECD7 /* Resources */,
+				C41441F5311EEC25C6602149 /* Embed Pods Frameworks */,
+				7877D46D35F6FBA70F914FB8 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -374,6 +401,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2E1CFC44B88F5799ABD82CAF /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7877D46D35F6FBA70F914FB8 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-美食map/Pods-美食map-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C41441F5311EEC25C6602149 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-美食map/Pods-美食map-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8514D8521BE9B379007FECD7 /* Sources */ = {
@@ -522,6 +597,7 @@
 		};
 		8514D8871BE9B379007FECD7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 813BA335448D8F13CDFE0006 /* Pods-美食map.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -538,6 +614,7 @@
 		};
 		8514D8881BE9B379007FECD7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A307EE2308A17AD93274CCE /* Pods-美食map.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				FRAMEWORK_SEARCH_PATHS = (

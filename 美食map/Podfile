@@ -1,0 +1,20 @@
+# Uncomment this line to define a global platform for your project
+# platform :ios, '8.0'
+# Uncomment this line if you're using Swift
+# use_frameworks!
+
+target '美食map' do
+
+pod 'AFNetworking'
+pod 'RESideMenu'
+
+end
+
+target '美食mapTests' do
+
+end
+
+target '美食mapUITests' do
+
+end
+
