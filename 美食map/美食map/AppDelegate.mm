@@ -7,10 +7,10 @@
 //
 
 #import "AppDelegate.h"
-#import <BaiduMapAPI_Map/BMKMapComponent.h>
+
 #define nomiApikey @"67bf13797dee68d827ecf94847488c74"
 #define baiduApikey @"rMWxudGZgbERZxNBuqajO7zp"
-BMKMapManager* _mapManager;
+
 @interface AppDelegate ()
 
 @end
@@ -21,7 +21,7 @@ BMKMapManager* _mapManager;
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     _mapManager = [[BMKMapManager alloc]init];
-    BOOL ret = [_mapManager start:baiduApikey generalDelegate:self];
+    BOOL ret = [_mapManager start:baiduApikey generalDelegate:nil];
     if (!ret) {
         NSLog(@"manager start failed!");
     }
