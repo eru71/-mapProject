@@ -47,7 +47,7 @@
 -(void)updateLocationData:(BMKUserLocation *)userLocation{
     
     BMKCoordinateSpan span = {0.01,0.01};
-    BMKCoordinateRegion region = {userLocation.location,span};
+//    BMKCoordinateRegion region = {userLocation.location,span};
 }
 
 - (void)didReceiveMemoryWarning {

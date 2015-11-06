@@ -21,13 +21,16 @@ PODS:
     - AFNetworking/NSURLConnection
     - AFNetworking/NSURLSession
   - RESideMenu (4.0.7)
+  - WMPageController (1.2.0)
 
 DEPENDENCIES:
   - AFNetworking
   - RESideMenu
+  - WMPageController
 
 SPEC CHECKSUMS:
   AFNetworking: 8e4e60500beb8bec644cf575beee72990a76d399
   RESideMenu: f24c508404b49c667344c54aba7e590883533958
+  WMPageController: 61e5998f9fee1a0e934c483302f1ed5984a23368
 
 COCOAPODS: 0.39.0

@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'E52701F28132F9C705CB16FF'
-               BlueprintName = 'AFNetworking'
+               BlueprintIdentifier = '878C00AB2F128EFA0A3F8D49'
+               BlueprintName = 'WMPageController'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'libAFNetworking.a'>
+               BuildableName = 'libWMPageController.a'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
