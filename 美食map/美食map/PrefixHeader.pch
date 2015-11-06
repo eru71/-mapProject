@@ -1,0 +1,16 @@
+//
+//  PrefixHeader.pch
+//  美食map
+//
+//  Created by tarena on 15/11/5.
+//  Copyright © 2015年 qinxi. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import <UIKit/UIKit.h>
+#import <BaiduMapAPI_Map/BMKMapView.h>
+
+
+#endif /* PrefixHeader_pch */

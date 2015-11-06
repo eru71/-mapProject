@@ -25,6 +25,16 @@
 		8514D8B01BEA4438007FECD7 /* BaiduMapAPI_Radar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8514D8A91BEA4438007FECD7 /* BaiduMapAPI_Radar.framework */; };
 		8514D8B11BEA4438007FECD7 /* BaiduMapAPI_Search.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8514D8AA1BEA4438007FECD7 /* BaiduMapAPI_Search.framework */; };
 		8514D8B21BEA4438007FECD7 /* BaiduMapAPI_Utils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8514D8AB1BEA4438007FECD7 /* BaiduMapAPI_Utils.framework */; };
+		85B61F531BEB7EC900CEE43A /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85B61F521BEB7EC900CEE43A /* CoreLocation.framework */; };
+		85B61F551BEB7ED900CEE43A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85B61F541BEB7ED900CEE43A /* QuartzCore.framework */; };
+		85B61F571BEB7EE300CEE43A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85B61F561BEB7EE300CEE43A /* OpenGLES.framework */; };
+		85B61F591BEB7EF000CEE43A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85B61F581BEB7EF000CEE43A /* SystemConfiguration.framework */; };
+		85B61F5B1BEB7F0400CEE43A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85B61F5A1BEB7F0400CEE43A /* CoreGraphics.framework */; };
+		85B61F5D1BEB7F0F00CEE43A /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85B61F5C1BEB7F0F00CEE43A /* Security.framework */; };
+		85B61F5F1BEB7F3600CEE43A /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 85B61F5E1BEB7F3600CEE43A /* libsqlite3.0.tbd */; };
+		85B61F611BEB7F4200CEE43A /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85B61F601BEB7F4200CEE43A /* CoreTelephony.framework */; };
+		85B61F631BEB7F4F00CEE43A /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 85B61F621BEB7F4F00CEE43A /* libstdc++.6.0.9.tbd */; };
+		85B61F651BEB80FC00CEE43A /* mapapi.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 85B61F641BEB80FC00CEE43A /* mapapi.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +82,17 @@
 		8514D8A91BEA4438007FECD7 /* BaiduMapAPI_Radar.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BaiduMapAPI_Radar.framework; sourceTree = "<group>"; };
 		8514D8AA1BEA4438007FECD7 /* BaiduMapAPI_Search.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BaiduMapAPI_Search.framework; sourceTree = "<group>"; };
 		8514D8AB1BEA4438007FECD7 /* BaiduMapAPI_Utils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BaiduMapAPI_Utils.framework; sourceTree = "<group>"; };
+		85B61F521BEB7EC900CEE43A /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		85B61F541BEB7ED900CEE43A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		85B61F561BEB7EE300CEE43A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		85B61F581BEB7EF000CEE43A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		85B61F5A1BEB7F0400CEE43A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		85B61F5C1BEB7F0F00CEE43A /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		85B61F5E1BEB7F3600CEE43A /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		85B61F601BEB7F4200CEE43A /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		85B61F621BEB7F4F00CEE43A /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
+		85B61F641BEB80FC00CEE43A /* mapapi.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = mapapi.bundle; sourceTree = "<group>"; };
+		85B61F661BEB81F400CEE43A /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		A9B12DC473C5D4F35DE2C0A6 /* libPods-美食map.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-美食map.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -80,6 +101,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85B61F631BEB7F4F00CEE43A /* libstdc++.6.0.9.tbd in Frameworks */,
+				85B61F611BEB7F4200CEE43A /* CoreTelephony.framework in Frameworks */,
+				85B61F5F1BEB7F3600CEE43A /* libsqlite3.0.tbd in Frameworks */,
+				85B61F5D1BEB7F0F00CEE43A /* Security.framework in Frameworks */,
+				85B61F5B1BEB7F0400CEE43A /* CoreGraphics.framework in Frameworks */,
+				85B61F591BEB7EF000CEE43A /* SystemConfiguration.framework in Frameworks */,
+				85B61F571BEB7EE300CEE43A /* OpenGLES.framework in Frameworks */,
+				85B61F551BEB7ED900CEE43A /* QuartzCore.framework in Frameworks */,
+				85B61F531BEB7EC900CEE43A /* CoreLocation.framework in Frameworks */,
 				8514D8901BE9B872007FECD7 /* AudioToolbox.framework in Frameworks */,
 				8514D8B01BEA4438007FECD7 /* BaiduMapAPI_Radar.framework in Frameworks */,
 				8514D8AC1BEA4438007FECD7 /* BaiduMapAPI_Base.framework in Frameworks */,
@@ -178,6 +208,8 @@
 		8514D89C1BEA42A1007FECD7 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				85B61F661BEB81F400CEE43A /* PrefixHeader.pch */,
+				85B61F641BEB80FC00CEE43A /* mapapi.bundle */,
 				8514D8651BE9B379007FECD7 /* __map.xcdatamodeld */,
 				8514D8621BE9B379007FECD7 /* Main.storyboard */,
 				8514D8681BE9B379007FECD7 /* Assets.xcassets */,
@@ -257,6 +289,15 @@
 		DB19C0CE99AAA22AC85B8471 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				85B61F621BEB7F4F00CEE43A /* libstdc++.6.0.9.tbd */,
+				85B61F601BEB7F4200CEE43A /* CoreTelephony.framework */,
+				85B61F5E1BEB7F3600CEE43A /* libsqlite3.0.tbd */,
+				85B61F5C1BEB7F0F00CEE43A /* Security.framework */,
+				85B61F5A1BEB7F0400CEE43A /* CoreGraphics.framework */,
+				85B61F581BEB7EF000CEE43A /* SystemConfiguration.framework */,
+				85B61F561BEB7EE300CEE43A /* OpenGLES.framework */,
+				85B61F541BEB7ED900CEE43A /* QuartzCore.framework */,
+				85B61F521BEB7EC900CEE43A /* CoreLocation.framework */,
 				A9B12DC473C5D4F35DE2C0A6 /* libPods-美食map.a */,
 			);
 			name = Frameworks;
@@ -381,6 +422,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8514D86C1BE9B379007FECD7 /* LaunchScreen.storyboard in Resources */,
+				85B61F651BEB80FC00CEE43A /* mapapi.bundle in Resources */,
 				8514D8691BE9B379007FECD7 /* Assets.xcassets in Resources */,
 				8514D8641BE9B379007FECD7 /* Main.storyboard in Resources */,
 			);
@@ -604,6 +646,8 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/美食map",
 				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/美食map/PrefixHeader.pch";
 				INFOPLIST_FILE = "美食map/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "-ObjC";
@@ -621,6 +665,8 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/美食map",
 				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/美食map/PrefixHeader.pch";
 				INFOPLIST_FILE = "美食map/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "-ObjC";
