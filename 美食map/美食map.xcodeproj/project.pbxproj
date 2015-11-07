@@ -718,8 +718,9 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/美食map/UMAnalytics_Sdk_3.6.4",
+					"$(PROJECT_DIR)/Pods/AFNetworking",
 				);
-				ONLY_ACTIVE_ARCH = NO;
+				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-l\"Pods-AFNetworking\"",
@@ -748,8 +749,9 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/美食map/UMAnalytics_Sdk_3.6.4",
+					"$(PROJECT_DIR)/Pods/AFNetworking",
 				);
-				ONLY_ACTIVE_ARCH = NO;
+				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-l\"Pods-AFNetworking\"",
