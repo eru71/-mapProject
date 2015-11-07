@@ -9,7 +9,7 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-&#32654;&#39135;map.xcscheme</key>
+		<key>Pods-美食map.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -26,6 +26,27 @@
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
-	<dict/>
+	<dict>
+		<key>410B25DF16EA5C5B3E2698F74F9625FB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7032966300BF07211AE0BC60A2F6A2D7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>78831C7EBFD405F998EE67F4535E5598</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BAEB7BE782BDAA8DC47E6043AE2EE32A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
 </dict>
 </plist>
