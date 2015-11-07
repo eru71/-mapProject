@@ -24,5 +24,7 @@
 - (NSURL *)applicationDocumentsDirectory;
 
 
+@property (nonatomic,getter=isOnLine) BOOL onLine;//网络状态
+
 @end
 

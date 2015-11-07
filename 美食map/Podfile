@@ -8,6 +8,13 @@ target '美食map' do
 pod 'AFNetworking'
 pod 'RESideMenu'
 pod 'WMPageController'
+pod 'MBProgressHUD'
+pod 'MJExtension'
+pod 'MJRefresh'
+pod 'Masonry'
+pod 'AFNetworking'
+pod 'BlocksKit'
+pod 'CocoaLumberjack'
 
 end
 

@@ -10,7 +10,35 @@
 #define PrefixHeader_pch
 
 #import <UIKit/UIKit.h>
-#import <BaiduMapAPI_Map/BMKMapView.h>
 
+/** 实现安卓toast风格提示，弹出提示框架 */
+#import <MBProgressHUD.h> 
+
+/** 优秀的Json解析类库 */
+#import <MJExtension.h>
+
+/** 优秀的滚动视图头部和脚步刷新效果 */
+#import <MJRefresh.h>
+
+/** 超好用的链式书写AutoLayout的第三方类库 */
+#import <Masonry.h>
+
+/** 网络请求类库 */
+#import <AFNetworking.h>
+#import <UIKit+AFNetworking.h>
+
+/* 改变系统的target+selector模式为 block模式。 带来紧凑的代码风格，高效率的回调执行 */
+#import <BlocksKit.h>
+#import <BlocksKit+MessageUI.h>
+#import <BlocksKit+UIKit.h>
+/* --------------------------- */
+
+/** 优秀的替换NSLog的第三方，更加省资源，并且可以定义打印级别 */
+#import <CocoaLumberjack.h>
+#ifdef DEBUG
+static const int ddLogLevel = DDLogLevelVerbose;
+#else
+static const int ddLogLevel = DDLogLevelError;
+#endif
 
 #endif /* PrefixHeader_pch */
